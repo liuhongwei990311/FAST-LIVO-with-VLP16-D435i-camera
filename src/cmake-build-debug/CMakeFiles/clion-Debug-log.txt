@@ -1,0 +1,698 @@
+/snap/clion/261/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/261/bin/ninja/linux/x64/ninja -G Ninja -S /SLAM_project/fast-livo_ws/src -B /SLAM_project/fast-livo_ws/src/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /SLAM_project/fast-livo_ws/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /SLAM_project/fast-livo_ws/devel;/bag/livox_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /SLAM_project/fast-livo_ws/devel;/bag/livox_ws/devel;/opt/ros/melodic
+CMake Warning (dev) at /opt/ros/melodic/share/catkin/cmake/python.cmake:4 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/all.cmake:164 (include)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:58 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /SLAM_project/fast-livo_ws/src/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /usr/src/googletest/googletest/cmake/internal_utils.cmake:209 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/src/googletest/googletest/CMakeLists.txt:60 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 4 packages in topological order:
+-- ~~  - vikit_common
+-- ~~  - vikit_py
+-- ~~  - vikit_ros
+-- ~~  - fast_livo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'vikit_common'
+-- ==> add_subdirectory(rpg_vikit/vikit_common)
+CMake Deprecation Warning at rpg_vikit/vikit_common/CMakeLists.txt:4 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found OpenCV: /usr/local/opencv-3.4.5 (found version "3.4.5") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.4
+-- Found Eigen: /usr/include/eigen3  
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'vikit_py'
+-- ==> add_subdirectory(rpg_vikit/vikit_py)
+CMake Deprecation Warning at rpg_vikit/vikit_py/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'vikit_ros'
+-- ==> add_subdirectory(rpg_vikit/vikit_ros)
+CMake Deprecation Warning at rpg_vikit/vikit_ros/CMakeLists.txt:3 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Warning at /opt/ros/melodic/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+Call Stack (most recent call first):
+  rpg_vikit/vikit_ros/CMakeLists.txt:21 (FIND_PACKAGE)
+
+
+-- Eigen found (include: /usr/include/eigen3)
+-- +++ processing catkin package: 'fast_livo'
+-- ==> add_subdirectory(FAST-LIVO)
+CMake Deprecation Warning at FAST-LIVO/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+Current CPU archtecture: x86_64
+Processer number:  32
+core for MP:  4
+CMake Warning (dev) at FAST-LIVO/CMakeLists.txt:43 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.17") 
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (eigen) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:149 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:634 (find_eigen)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:844 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found eigen: /usr/include/eigen3  
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.40.0") found components: system filesystem thread date_time iostreams serialization chrono atomic regex 
+-- Checking for module 'libopenni'
+--   Found libopenni, version 1.5.4.0
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (openni)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:231 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:640 (find_openni)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found openni: /usr/lib/libOpenNI.so  
+-- Checking for module 'libopenni2'
+--   Found libopenni2, version 2.2.0.3
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (OpenNI2)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:276 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:642 (find_openni2)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (ensenso)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:308 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:644 (find_ensenso)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** io features related to ensenso will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:342 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:646 (find_davidSDK)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** io features related to davidSDK will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (DSSDK) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:384 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:648 (find_dssdk)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:511 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:654 (find_libusb)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Flann) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:469 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:636 (find_flann)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:844 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Flann) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:469 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:636 (find_flann)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:844 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (openni)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:231 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:640 (find_openni)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (OpenNI2)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:276 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:642 (find_openni2)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (ensenso)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:308 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:644 (find_ensenso)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** visualization features related to ensenso will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:342 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:646 (find_davidSDK)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** visualization features related to davidSDK will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (DSSDK) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:384 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:648 (find_dssdk)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** visualization features related to dssdk will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (RSSDK) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:428 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:650 (find_rssdk)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+** WARNING ** visualization features related to rssdk will be disabled
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (qhull) does
+  not match the name of the calling package (PCL).  This can lead to problems
+  in calling code that expects `find_package` result variables (e.g.,
+  `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:181 (find_package_handle_standard_args)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:638 (find_qhull)
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:841 (find_external_library)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+-- looking for PCL_COMMON
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_COMMON: /usr/local/pcl-1.8.1/lib/libpcl_common.so  
+-- looking for PCL_OCTREE
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OCTREE: /usr/local/pcl-1.8.1/lib/libpcl_octree.so  
+-- looking for PCL_IO
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_IO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_IO: /usr/local/pcl-1.8.1/lib/libpcl_io.so  
+-- looking for PCL_KDTREE
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KDTREE: /usr/local/pcl-1.8.1/lib/libpcl_kdtree.so  
+-- looking for PCL_SEARCH
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEARCH: /usr/local/pcl-1.8.1/lib/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+  (PCL).  This can lead to problems in calling code that expects
+  `find_package` result variables (e.g., `_FOUND`) to follow a certain
+  pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/pcl-1.8.1/lib/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FILTERS: /usr/local/pcl-1.8.1/lib/libpcl_filters.so  
+-- looking for PCL_2D
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_2D)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:908 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_2D: /usr/local/pcl-1.8.1/include/pcl-1.8  
+-- looking for PCL_GEOMETRY
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:908 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_GEOMETRY: /usr/local/pcl-1.8.1/include/pcl-1.8  
+-- looking for PCL_FEATURES
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_FEATURES: /usr/local/pcl-1.8.1/lib/libpcl_features.so  
+-- looking for PCL_ML
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_ML)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_ML: /usr/local/pcl-1.8.1/lib/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SEGMENTATION: /usr/local/pcl-1.8.1/lib/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_VISUALIZATION: /usr/local/pcl-1.8.1/lib/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_SURFACE: /usr/local/pcl-1.8.1/lib/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_REGISTRATION: /usr/local/pcl-1.8.1/lib/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_KEYPOINTS: /usr/local/pcl-1.8.1/lib/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_TRACKING: /usr/local/pcl-1.8.1/lib/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_RECOGNITION: /usr/local/pcl-1.8.1/lib/libpcl_recognition.so  
+-- looking for PCL_STEREO
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_STEREO: /usr/local/pcl-1.8.1/lib/libpcl_stereo.so  
+-- looking for PCL_OUTOFCORE
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_OUTOFCORE: /usr/local/pcl-1.8.1/lib/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+CMake Warning (dev) at /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake:905 (find_package_handle_standard_args)
+  FAST-LIVO/CMakeLists.txt:65 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PCL_PEOPLE: /usr/local/pcl-1.8.1/lib/libpcl_people.so  
+-- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_common.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_common.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_octree.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/local/pcl-1.8.1/lib/libpcl_io.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/local/pcl-1.8.1/lib/libpcl_kdtree.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_kdtree.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_search.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_search.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_sample_consensus.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_sample_consensus.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_filters.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_filters.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_features.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_features.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_ml.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_ml.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_segmentation.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_segmentation.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_visualization.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_surface.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_surface.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_registration.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_registration.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_keypoints.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_keypoints.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_tracking.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_tracking.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_recognition.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_recognition.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_stereo.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_stereo.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_outofcore.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_outofcore.so;optimized;/usr/local/pcl-1.8.1/lib/libpcl_people.so;debug;/usr/local/pcl-1.8.1/lib/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+-- Found Boost: /usr/include (found version "1.65.1") found components: thread chrono system date_time atomic 
+Eigen:/usr/include/eigen3
+-- fast_livo: 2 messages, 0 services
+-- Configuring done (3.7s)
+CMake Warning at FAST-LIVO/CMakeLists.txt:110 (add_executable):
+  Cannot generate a safe runtime search path for target fastlivo_mapping
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpcl_kdtree.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_search.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_features.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_sample_consensus.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_filters.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_ml.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_segmentation.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_surface.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_common.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_octree.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+    runtime library [libpcl_io.so.1.8] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/pcl-1.8.1/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done (0.1s)
+-- Build files have been written to: /SLAM_project/fast-livo_ws/src/cmake-build-debug

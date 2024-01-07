@@ -1,0 +1,508 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libikdtree.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ADD_COMPILE_OPTIONS",
+			"add_definitions",
+			"include",
+			"find_package",
+			"configure_shared_library_build_settings",
+			"set_property",
+			"find_external_library",
+			"include_directories",
+			"gencpp_append_include_dirs",
+			"_generate_msg_cpp",
+			"generate_messages"
+		],
+		"files" : 
+		[
+			"FAST-LIVO/CMakeLists.txt",
+			"/opt/ros/melodic/share/rosconsole/cmake/rosconsole-extras.cmake",
+			"/opt/ros/melodic/share/rosconsole/cmake/rosconsoleConfig.cmake",
+			"/opt/ros/melodic/share/roscpp/cmake/roscppConfig.cmake",
+			"/opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake",
+			"/opt/ros/melodic/share/catkin/cmake/tools/libraries.cmake",
+			"/opt/ros/melodic/share/catkin/cmake/all.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/cmake/vtk-6.3/UseVTK.cmake",
+			"/usr/local/pcl-1.8.1/share/pcl-1.8/PCLConfig.cmake",
+			"/opt/ros/melodic/share/gencpp/cmake/gencpp-extras.cmake",
+			"cmake-build-debug/FAST-LIVO/cmake/fast_livo-genmsg.cmake",
+			"/opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 76,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 197,
+				"parent" : 9
+			},
+			{
+				"file" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 222,
+				"parent" : 11
+			},
+			{
+				"file" : 1,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 58,
+				"parent" : 15
+			},
+			{
+				"file" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 20,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 174,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 18,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 841,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 667,
+				"parent" : 25
+			},
+			{
+				"file" : 8,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 23,
+				"parent" : 27
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 307,
+				"parent" : 29
+			},
+			{
+				"file" : 11,
+				"parent" : 30
+			},
+			{
+				"command" : 10,
+				"file" : 11,
+				"line" : 36,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 46,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 63,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++14 -O3 -std=c++14 -pthread -std=c++0x -std=c++14 -fexceptions -fopenmp  -g -std=c++14 -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "MP_EN"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "MP_PROC_NUM=4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ROOT_DIR=\"/SLAM_project/fast-livo_ws/src/FAST-LIVO/\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ROSCONSOLE_BACKEND_LOG4CXX"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "ROS_PACKAGE_NAME=\"fast_livo\""
+				},
+				{
+					"define" : "ikdtree_EXPORTS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkIOImage_AUTOINIT=1(vtkIOMPIImage)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkIOParallel_AUTOINIT=1(vtkIOMPIParallel)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 34,
+					"path" : "/SLAM_project/fast-livo_ws/src/cmake-build-debug/devel/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/vtk-6.3"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/lib/x86_64-linux-gnu/openmpi/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/python2.7"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/hdf5/openmpi"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/libxml2"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/jsoncpp"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/usr/include/tcl"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/SLAM_project/fast-livo_ws/src/rpg_vikit/vikit_common/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/SLAM_project/fast-livo_ws/src/rpg_vikit/vikit_ros/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/bag/livox_ws/devel/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/opt/ros/melodic/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/pcl-1.8"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/local/opencv-3.4.5/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/local/opencv-3.4.5/include/opencv"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/liuhongwei/Desktop/LIOSAM/Sophus"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/include/opencv"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/usr/local/pcl-1.8.1/include/pcl-1.8"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/SLAM_project/fast-livo_ws/src/FAST-LIVO/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "ikdtree::@7af9e8cf136964f007df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ikdtree",
+	"nameOnDisk" : "libikdtree.so",
+	"paths" : 
+	{
+		"build" : "FAST-LIVO",
+		"source" : "FAST-LIVO"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FAST-LIVO/include/ikd-Tree/ikd_Tree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FAST-LIVO/include/FOV_Checker/FOV_Checker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
